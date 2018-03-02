@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.davihoffmann.apploginandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewNome"
+        android:background="@color/branco"
+        app:srcCompat="@drawable/logo_unidavi" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewID"
+        android:layout_centerHorizontal="true"
+        android:background="@color/branco"
+        android:text="@string/text_view_nome"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescricao"
+        android:layout_width="300dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/textViewNome"
+        android:layout_centerHorizontal="true"
+        android:background="@color/branco"
+        android:text="@string/text_view_descricao"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+</RelativeLayout>

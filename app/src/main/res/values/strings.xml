@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App Login Android</string>
+    <string name="text_view_nome">Davi Prada Hoffmann</string>
+    <string name="text_view_descricao">Descrição do App - Pós Graduação UNIDAVI</string>
+    <string name="texto_login">Login</string>
+    <string name="text_senha">Senha</string>
+    <string name="botao_login">Entrar</string>
+</resources>
